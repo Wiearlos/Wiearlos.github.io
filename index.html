@@ -294,7 +294,7 @@ if(operacion == "*"){
 
 }
 if(operacion == "+"){
-   result = suma1 + suma2
+   result = (parseInt(suma1))+(parseInt(suma2))
 
 }
 if(operacion == "-"){
@@ -379,13 +379,3 @@ document.getElementById('lye').innerHTML= suma1 + operacion + suma2 + " = " + re
     }
 
 </style>
-
-
-
-echo "# calcualtor-project-" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Wiearlos/calcualtor-project-.git
-git push -u origin main
