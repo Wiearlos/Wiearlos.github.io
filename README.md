@@ -294,7 +294,7 @@ if(operacion == "*"){
 
 }
 if(operacion == "+"){
-   result = suma1 + suma2
+   result = (parseint(suma1))+(parseint(suma2));
 
 }
 if(operacion == "-"){
