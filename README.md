@@ -294,7 +294,7 @@ if(operacion == "*"){
 
 }
 if(operacion == "+"){
-   result = (parseint(suma1))+(parseint(suma2));
+   result = (parseInt(suma1))+(parseInt(suma2))
 
 }
 if(operacion == "-"){
@@ -379,5 +379,3 @@ document.getElementById('lye').innerHTML= suma1 + operacion + suma2 + " = " + re
     }
 
 </style>
-
-
